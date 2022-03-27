@@ -22,6 +22,6 @@ There is no partial settlement as an MVP product
 Extension if time allows:
 	Split unequally/custom one person pays and custom cost for each participant in a group.
 
-Expectation:
+**Expectation**:
 	Write a clean code keeping in mind OOPS principle and extensibility of code.
 	Use in memory data structures to keep track of records or use in-memory db if you are comfortable.
