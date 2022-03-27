@@ -19,10 +19,10 @@ public class GroupDao {
         groupMap.put(group.getName(), group);
     }
 
-    public void addUsersToGroup(List<String> emails, String groupName) {
+    public void addUsersToGroup(List<String> ids, String groupName) {
         Group group = groupMap.getOrDefault(groupName, null);
         if (Objects.nonNull(group)) {
-            group.getParticipants().addAll(emails);
+            group.getParticipants().addAll(ids);
             groupMap.put(groupName, group);
         }
     }

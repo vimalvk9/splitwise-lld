@@ -8,6 +8,12 @@ import java.util.Map;
 
 public class EqualSplitAmountImpl implements ISplitAmount {
 
+
+//    vimal -> Rs 300
+//    rakesh -> -150
+//    arpit -> -150
+
+
     @Override
     public PostSplitAmountUserInfo split(Double amount, String paidByUserId, List<String> sharedAmong, Map<String, Double> splitShare) {
 

@@ -31,7 +31,7 @@ public class UserDAO {
     }
 
     public void createUser(User user) {
-        userMap.put(user.getEmail(), user);
+        userMap.put(user.getName(), user);
     }
 
     public void removeUserById(String name) {

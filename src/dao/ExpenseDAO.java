@@ -10,6 +10,23 @@ public class ExpenseDAO {
 
     // k - userId, v.k1 - userId, v.v1 - netbalance
     private final Map<String, Map<String, Double>> userExpenseTracker; // used for P2P expense tracker
+//
+//    {
+//        "vimal": {
+//            "rakesh" : 150,
+//            "arpit" :  150
+//        },
+//
+//        "rakesh" : {
+//            "vimal" :  -100
+//        },
+//
+//        "arpit" :{
+//            "vimal" : 50
+//        }
+//    }
+
+
 
     // k - groupId, v.k1 - userId, v.v1.k1 - userId, v.v1.k2 - netbalance
     private final Map<String, Map<String, Map<String, Double>>> groupExpenseTracker; // used for expense tracking within group
